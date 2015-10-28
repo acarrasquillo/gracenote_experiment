@@ -1,0 +1,28 @@
+{
+  "name": "gracenote_experiment",
+  "version": "1.0.0",
+  "description": "Node.js web app to play with the Gracenote web API",
+  "main": "app.js",
+  "scripts": {
+    "test": "node-inspector"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acarrasquillo/gracenote_experiment.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Gracenote",
+    "Music",
+    "Videos"
+  ],
+  "author": "Abimael Carrasquillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acarrasquillo/gracenote_experiment/issues"
+  },
+  "homepage": "https://github.com/acarrasquillo/gracenote_experiment",
+  "dependencies": {
+    "node-gracenote": "git://github.com/ddanninger/node-gracenote.git"
+  }
+}
